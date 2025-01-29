@@ -1,0 +1,42 @@
+.updates {
+    margin-top: 100px;
+}
+
+.backEquip {
+    width: 100px;
+    display: inline;
+    height: 30px;
+    border-radius: 3px;
+    transition: background-color 0.5s ease;
+   
+    margin-left: 1400px;
+    background-color: white;
+    transform: translate(20%, -100%);
+}
+
+.updateBox {
+    display: inline;
+    font-weight: bold;
+    height: 30px;
+}
+
+.updateEquip {
+
+    transform: translate(0%,90%);
+}
+
+.submitEquip {
+
+    
+    width: 100px;
+    display: inline;
+    height: 30px;
+    border-radius: 3px;
+    transition: background-color 0.5s ease;
+   
+    margin-left: 1400px;
+    background-color: white;
+    transform: translate(-100%, -0%);
+
+
+}

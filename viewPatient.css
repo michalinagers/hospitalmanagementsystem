@@ -1,0 +1,26 @@
+.backBut {
+
+    width: 100px;
+    display: inline;
+    height: 30px;
+    border-radius: 3px;
+    transition: background-color 0.5s ease;
+    margin-right: 30px;
+    background-color: white;
+    transform: translate(1670%, 2100%);
+    
+    
+    }
+    
+    .patientprof {
+    
+    width: 250px;
+    display: block;
+    height: 70px;
+    margin: 40px;
+    border-radius: 3px;
+    transition: background-color 0.5s ease;
+    background-color: white;
+    transform: translate(570%, -140%);
+    
+    }
