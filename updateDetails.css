@@ -1,0 +1,23 @@
+.updates {
+    width: 300px;
+    margin: auto; 
+    margin-top: -150px; 
+    margin-left: 800px;
+}
+
+.control-label {
+    margin-bottom: 5px; 
+}
+
+.form-control {
+    width: calc(100% - 16px);
+    padding: 8px; 
+    margin-bottom: 10px; 
+    box-sizing: border-box; 
+}
+
+.backPat {
+    margin-top: 10px; 
+    display: inline-block; 
+    padding: 8px 16px; 
+}

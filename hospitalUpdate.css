@@ -1,0 +1,29 @@
+.backUpdates {
+
+    width: 100px;
+    display: inline;
+    height: 30px;
+    border-radius: 3px;
+    transition: background-color 0.5s ease;
+    margin-right: 30px;
+    background-color: white;
+    transform: translate(800%, -100%);
+    
+    }
+    
+    .backUpdates:hover {
+      background-color: #969696;
+    
+    }
+    
+    .hosUpdates {
+    
+        transform: translate(25%,10%);
+    
+    }
+    
+    .hUpdate {
+    
+    text-align: left;
+    transform: translate(2%,-2450%);
+    }

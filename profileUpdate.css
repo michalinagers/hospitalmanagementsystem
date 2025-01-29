@@ -1,0 +1,73 @@
+
+.backPat {
+
+    width: 100px;
+    display: inline;
+    height: 30px;
+    border-radius: 3px;
+    transition: background-color 0.5s ease;
+    margin-right: 30px;
+    background-color: white;
+    transform: translate(1640%, 1250%);
+    
+    
+    }
+    
+    .patientprof {
+    
+    width: 250px;
+    display: block;
+    height: 70px;
+    margin: 40px;
+    border-radius: 3px;
+    transition: background-color 0.5s ease;
+    background-color: white;
+    transform: translate(570%, -100%);
+    }
+    
+    input.form-control {
+     
+      border: 2px solid black;
+      border-radius: 5px;
+      padding: 5px;
+      font-size: 16px;
+      width: 220px;
+      height: 20px;
+      transform: translate(100%,-100%);
+      display: block;
+      margin: -7px;
+     
+    }
+    
+    
+    
+     h1.up2  {
+    transform: translate(-10%, 1300%);
+    font-size: 15px;
+    margin: 38px;
+      }
+    
+    .patientName {
+    
+        font-weight: bold;
+        text-align: center;
+        transform: translate(4%,-450%);
+        font-size: 30px;
+    }
+    
+    .submitButton
+    {
+    width: 100px;
+    display: inline;
+    height: 30px;
+    border-radius: 3px;
+    transition: background-color 0.5s ease;
+    margin-right: 30px;
+    background-color: white;
+    transform: translate(200%, 180%);
+    }
+    
+    .submitButton:hover {
+        background-color: #969696;
+    
+    }

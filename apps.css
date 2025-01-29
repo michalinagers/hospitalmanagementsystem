@@ -1,0 +1,37 @@
+.title {
+
+    color: white;
+    text-align: center;
+    font-weight: bold;
+    font-size: 30px;
+    transform: translate(00%, -209%);
+
+
+}
+
+td,
+th {
+    font-weight: bold;
+    font-size: 15px;
+    height: 35px;
+    width: 40vw;
+    padding: 25px;
+    border: 1px solid black;
+    border-color: black;
+    background-color: white;
+
+
+}
+
+.backList {
+width: 100px;
+display:  block;
+height: 30px;
+border-radius: 3px;
+transition: background-color 0.5s ease;
+margin-right: 30px;
+background-color: white;
+transform: translate(1680%, -1700%);
+cursor: pointer;
+
+}

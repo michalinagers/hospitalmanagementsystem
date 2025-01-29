@@ -1,0 +1,56 @@
+.logout {
+    width: 60px;
+display: inline-block;
+height: 30px;
+border-radius: 10px;
+transition: background-color 0.5s ease;
+margin-bottom: 10px;
+margin-right: 80px;
+background-color: white;
+transform: translate(2900%, -650%);
+cursor: pointer;
+
+}
+
+.logout-link:hover {
+background-color: #c00;
+}
+
+.adminMain {
+
+width: 350px;
+display: inline-block;
+height: 50px;
+border-radius: 10px;
+transition: background-color 0.5s ease;
+margin-bottom: 10px;
+margin-right: 80px;
+background-color: white;
+transform: translate(10%, 1280%);
+
+}
+
+.adminMain2 {
+
+width: 350px;
+display: inline-block;
+height: 50px;
+border-radius: 10px;
+transition: background-color 0.5s ease;
+margin-bottom: 10px;
+margin-right: 80px;
+background-color: white;
+transform: translate(-176%, 1280%);
+
+}
+
+.adminMain2:hover {
+
+background-color: #969696;
+}
+
+.adminMain:hover {
+
+background-color: #969696;
+
+}

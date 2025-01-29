@@ -1,0 +1,47 @@
+.AppImg {
+    float: right;
+}
+
+
+td,
+th {
+    font-weight: bold;
+    font-size: 15px;
+    height: 35px;
+    width: 40vw;
+    padding: 25px;
+    border: 1px solid black;
+    border-color: black;
+    background-color: white;
+
+
+}
+
+.backAppointment {
+
+    width: 100px;
+    display: inline;
+    height: 30px;
+    border-radius: 3px;
+    transition: background-color 0.5s ease;
+    margin-right: 30px;
+    background-color: white;
+    transform: translate(1600%, 1550%);
+}
+
+.backAppointment:hover {
+
+    cursor: pointer;
+}
+
+.backButton {
+
+    width: 100px;
+    display: inline;
+    height: 30px;
+    border-radius: 3px;
+    transition: background-color 0.5s ease;
+    margin-right: 30px;
+    background-color: white;
+    transform: translate(800%, 2150%);
+}

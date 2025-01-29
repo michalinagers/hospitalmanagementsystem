@@ -1,0 +1,38 @@
+<?php require ("NavBar.html"); ?>
+
+
+<?php
+if (isset($_SESSION["success_message"])) {
+	echo "<p>" . $_SESSION["success_message"] . "</p>";
+	unset($_SESSION["success_message"]);
+
+	// Set a session variable for the success message
+	$_SESSION["success_message"] = "You have been successfully logged out.";
+
+	// Redirect the user to the homepage using JavaScript
+	echo '<script>window.location.href = "HomeLogOutSuccess.php";</script>';
+}
+?>
+
+		<h1><img src="https://i.postimg.cc/15tpqdV5/Project-2.jpg" alt="Hospital"></h1>
+
+		<p class="title">Hospital Management System</p>
+
+
+<div class="mainlogin">
+<link rel="stylesheet" href="patientLogout.css"/>
+<h1 class="LogOut">You have been logged out.</h1>
+<button type="button" class="loginCreate" onclick="location.href='createProfile.php'">Create Profile</button>
+<button type="button" class="loginCreate" onclick="location.href='patientLogin2.php'">Patient Login</button>
+<button type="button" class="loginCreate" onclick="location.href='hstaffLogin.php'">Staff Login</button>
+<button type="button" class="loginCreate" onclick="location.href='staffLogin2.php'">Clinician Login</button>
+<button type="button" class="loginCreate" onclick="location.href='adminLogin.php'">Admin Login</button>
+
+
+
+
+
+</div>
+
+
+<?php require ("Footer.html"); ?>

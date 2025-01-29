@@ -1,0 +1,39 @@
+.myProfile {
+
+    text-align: left;
+    transform: translate(31%, -100%);
+}
+
+.myProfile2 {
+
+    transform: translate(4%, -640%);
+    font-size: 10px;
+}
+
+.Myprofile3 {
+
+    font-weight: bold;
+    transform: translate(-3%, 240%);
+    padding: 20px;
+    z-index: 1;
+}
+
+.patientInfo p {
+    margin-bottom: 23px;
+    text-align: left;
+    transform: translate(32%, -2300%);
+}
+
+.backProfile {
+
+    width: 100px;
+    display: inline;
+    height: 30px;
+    border-radius: 3px;
+    transition: background-color 0.5s ease;
+    margin-right: 30px;
+    background-color: white;
+    transform: translate(230%, -1100%);
+
+
+}

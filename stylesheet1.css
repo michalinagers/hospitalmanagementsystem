@@ -1,0 +1,24 @@
+#add {
+    width: 200px;
+    height: 30px;
+    align-items: center;
+}
+
+.title {
+    transform: translate(0%, 250%);
+}
+
+.backUpdates {
+    width: 100px;
+    display: inline;
+    height: 30px;
+    border-radius: 3px;
+    transition: background-color 0.5s ease;
+    margin-right: 30px;
+    background-color: white;
+    transform: translate(800%, 2300%);
+}
+
+.backUpdates:hover {
+    background-color: #969696;
+}

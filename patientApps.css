@@ -1,0 +1,40 @@
+.mainPatients {
+    width: 1350px;
+    padding: 20px;
+    top: 50%;
+    height: 750px;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    background: rgb(255, 255, 255);
+    border-radius: 15px;
+    border: 3px solid rgb(0, 0, 0);
+    color: black;
+    display: block;
+    z-index: -1;
+}
+.patientImage {
+    margin-right: 820px;
+    margin-bottom: 220px;
+    transform: translate(10%,20%);
+}
+.patientinfoo {
+    color: black;
+    font-size: 30px;
+    transform: translate(10%,-1020%);
+}
+
+.backBut {
+
+width: 100px;
+display: inline;
+height: 30px;
+border-radius: 3px;
+transition: background-color 0.5s ease;
+margin-right: 30px;
+background-color: white;
+transform: translate(1670%, 2100%);
+
+
+}

@@ -1,0 +1,23 @@
+h1.AppImage {
+    float: right;
+    transform: 20%,220%;
+    }
+
+    .appReason {
+
+       font-size: 40px;
+       z-index: 2;
+    }
+
+    .bookApps {
+
+width: 100px;
+display: inline;
+height: 30px;
+border-radius: 3px;
+transition: background-color 0.5s ease;
+margin-right: 30px;
+background-color: white;
+transform: translate(1400%, 300%);
+
+}
